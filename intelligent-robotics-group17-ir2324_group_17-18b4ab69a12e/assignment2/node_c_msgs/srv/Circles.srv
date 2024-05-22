@@ -1,0 +1,6 @@
+sensor_msgs/LaserScan scan_data #data of the provideded by the laser sensor
+float64 min_circle_radius
+float64 max_circle_radius
+float64 radius_enlargment
+---
+Circle[] cirles #detected circles

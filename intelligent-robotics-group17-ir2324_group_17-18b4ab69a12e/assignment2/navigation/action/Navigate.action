@@ -1,0 +1,14 @@
+#goal definition
+float64 x
+float64 y
+float64 orZ
+float64 orW
+---
+#result definition
+bool arrived # status
+---
+#feedback
+float64 actualX
+float64 actualY
+uint8 state                     #this value is 0 if the robot is moving, 1 if the robot arrived to the final pose, 2 if is scanning, 
+                                #-1 if an error occoured in the navigation, -2 if an error occurred in the detection

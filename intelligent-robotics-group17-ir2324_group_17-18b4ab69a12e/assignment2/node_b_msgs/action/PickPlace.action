@@ -1,0 +1,7 @@
+uint8 mode                      # The mode to perfom in the manipulation task (0->pick, 1->place)
+node_c_msgs/Detection[] poses     # Valid only if mode = 0, elment with id < 0 is a table (w.r.t. base_link)
+int32 id_object_pick_place            # Valid only if mode = 0, id of the object to pick
+---
+bool state                      # True if ok False otherwise
+---
+string status                   # Status that describe what the robot is doing

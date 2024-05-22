@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+	<node name ="navigation_node" pkg="navigation" type="navigation_node" output="screen"/>
+	
+	<node name ="pickPlace" pkg="node_b" type="pick_place_node" output="screen"/>
+	<node name ="torsoLift" pkg="node_b" type="torso_lifter_node" output="screen"/>
+	<node name ="moveHead" pkg="node_b" type="head_movement_node" output="screen"/>
+
+	<node name ="poseTrans" pkg="node_c" type="poses_transformer_node" output="screen"/>
+	<node name ="poseDetect" pkg="node_c" type="poses_detection_node" output="screen"/>
+	<node name ="tableObj" pkg="node_c" type="table_objects_detection_node" output="screen"/>
+	<node name ="obstacleExtract" pkg="node_c" type="obstacle_extractor_node" output="screen"/>
+	<node name ="tableDetect" pkg="node_c" type="pose_table_detector_node" output="screen"/>
+
+	<node name ="main" pkg="node_a" type="node_a" args="extra" output="screen"/>
+
+</launch>

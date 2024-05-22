@@ -1,0 +1,1 @@
+Detection[] poses      #poses of the object wrt base link ref. frame

@@ -1,0 +1,6 @@
+uint8 mode                    #type of movement: 0 return to standard pose for navigation, 1 move down the head, 2 move the joints of the head, 3 move to a specfic pixel point
+float64 rotation_vertical     #valid only if mode equals 2, change the value of head_1_joint 
+float64 rotation_horizontal   #valid only if mode equals 2, change the value of head_1_joint 
+geometry_msgs/Point point
+---
+bool state # True if ok False otherwise

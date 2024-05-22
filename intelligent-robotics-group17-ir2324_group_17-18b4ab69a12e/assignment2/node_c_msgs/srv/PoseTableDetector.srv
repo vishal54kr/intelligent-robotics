@@ -1,0 +1,6 @@
+# Goal
+int32 id # Id of the object to place
+Circle[] circles # Array of circles w.r.t map reference frame
+---
+# Result
+Circle circle # Circle that correspond to the id, w.r.t map reference frame 

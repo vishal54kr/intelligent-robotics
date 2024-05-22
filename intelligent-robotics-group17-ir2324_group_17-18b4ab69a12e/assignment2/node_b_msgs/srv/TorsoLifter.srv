@@ -1,0 +1,3 @@
+float64 joint_value #value to assign to the torso_lift_joint
+---
+bool state # True if ok False otherwise

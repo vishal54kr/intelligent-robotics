@@ -1,0 +1,5 @@
+string source_frame #Source Reference frame
+string target_frame #Target Reference framce
+geometry_msgs/Pose pose #Pose in the source reference frame
+---
+geometry_msgs/Pose pose #Pose in the target reference frame

@@ -1,0 +1,5 @@
+uint8 colorID                                  #id of the colored object to pick
+---
+Detections detections                          #poses of the detected april tags (colored object and collision objects)
+---
+uint8 state                                    #state of the action: 0 searching for the table, 1 searching for the object tag, 2 searching for other tags (collision objects)

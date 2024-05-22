@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+	<include file="$(find tiago_iaslab_simulation)/launch/apriltag.launch"/>
+	<include file="$(find tiago_iaslab_simulation)/launch/navigation.launch"/>
+
+	<node name ="human" pkg="tiago_iaslab_simulation" type="human_node"/>
+</launch>
